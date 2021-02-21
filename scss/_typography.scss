@@ -1,0 +1,19 @@
+body {
+    font-family: $font-text;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+@media(min-width: 576px){
+    body 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-title;
+}
+
