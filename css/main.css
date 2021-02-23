@@ -16,6 +16,7 @@ html {
 
 body {
   margin: 0;
+  color: #2A1A1f;
 }
 
 img {
@@ -49,6 +50,7 @@ h6 {
 .navbar-brand {
   font-family: "Baumans", serif;
   font-size: 1.5rem;
+  margin-left: 0;
 }
 
 /*  Hero    */
