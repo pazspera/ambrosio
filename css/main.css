@@ -38,6 +38,14 @@ h6 {
   font-family: "Playfair Display", serif;
 }
 
+a {
+  color: #F1BF98;
+}
+
+a:hover {
+  color: #CBEEF3;
+}
+
 /*  
     Por default $initial-size es el tamaño para mobile 
     A los 576px pasa a ser $base-size para todo el sitio
@@ -51,6 +59,13 @@ h6 {
   font-family: "Baumans", serif;
   font-size: 1.5rem;
   margin-left: 0;
+}
+
+.navbar .nav-link {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif, sans-serif;
+  text-transform: uppercase;
 }
 
 /*  Hero    */
@@ -139,6 +154,13 @@ h6 {
   font-size: 1.95rem;
 }
 
+.footer__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif, sans-serif;
+  text-transform: uppercase;
+}
+
 .footer__text p {
   margin-bottom: 0;
 }
@@ -146,13 +168,6 @@ h6 {
 .footer__text,
 .footer__text a {
   font-size: 1rem;
-}
-
-.footer__title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
 }
 
 /* index  */
