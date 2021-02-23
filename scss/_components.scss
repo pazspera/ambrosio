@@ -100,6 +100,7 @@
     background-color: $black;
     color: $white;
 
+
     &__logo {
         font-family: $font-logo, sans-serif;
         font-size: $size3;
@@ -129,4 +130,8 @@
         height: 50vh;
         justify-content: space-evenly;
     } */
+}
+
+main {
+    background-color: $white;
 }
