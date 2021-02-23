@@ -195,4 +195,10 @@ a:hover {
 #contacto {
   background-image: url(../img/hero_contacto.jpg);
 }
+
+/*  Container   */
+.container {
+  width: 85%;
+  max-width: 1250px;
+}
 /*# sourceMappingURL=main.css.map */
