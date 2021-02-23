@@ -99,24 +99,47 @@ h6 {
 .hero__title span,
 .hero__text span {
   background-color: #2A1A1f;
-  line-height: 1.3;
   box-decoration-break: clone;
 }
 
 .hero__title span {
   font-size: 3rem;
-  padding: 0.15em 0.2em;
+  padding: 0.10em 0.2em 0.15em 0.2em;
+  line-height: 1.3;
 }
 
 .hero__text span {
   font-size: 1.5rem;
   padding: 0.25em 0.6em;
   margin-bottom: 3rem;
+  line-height: 1.6;
 }
 
 @media (min-width: 992px) {
   .hero__text {
     max-width: 45vw;
   }
+}
+
+/* index  */
+#index {
+  background-image: url(../img/hero_index.jpg);
+  background-position: center right;
+}
+
+/* que_hacemos */
+#que_hacemos {
+  background-image: url(../img/hero_que_hacemos.jpg);
+}
+
+/* quienes_somos */
+#quienes_somos {
+  background-image: url(../img/hero_quienes_somos.jpg);
+  background-position: right;
+}
+
+/* contacto */
+#contacto {
+  background-image: url(../img/hero_contacto.jpg);
 }
 /*# sourceMappingURL=main.css.map */
