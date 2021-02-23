@@ -121,6 +121,40 @@ h6 {
   }
 }
 
+/* Footer  */
+.footer {
+  background-color: #2A1A1f;
+  color: #fdfdfd;
+  /* 
+    &__content {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: space-evenly;
+    } */
+}
+
+.footer__logo {
+  font-family: "Baumans", serif, sans-serif;
+  font-size: 1.95rem;
+}
+
+.footer__text p {
+  margin-bottom: 0;
+}
+
+.footer__text,
+.footer__text a {
+  font-size: 1rem;
+}
+
+.footer__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
 /* index  */
 #index {
   background-image: url(../img/hero_index.jpg);

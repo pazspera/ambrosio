@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- Menú navegación -->
-    <header>
+    <header class="sticky-top"> 
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
               <a class="navbar-brand" aria-current="page" href="index.html">Ambrosio</a>
@@ -40,7 +40,7 @@
     </header>
 
     <!-- Hero  -->
-    <section class="hero" id>
+    <section class="hero" id="index">
         <div class="hero__container container">
             <div class="row">
                 <div class="col">
@@ -89,19 +89,49 @@
     </main>
     
     <!-- Footer -->
-    <footer>
+    <footer class="footer py-5">
         <div class="container">
-            <h3>Ambrosio</h3>
-            <p>Ambrosio Pastas es un proyecto de desarrollo web diseñado por Paz Spera. La empresa es ficticia pero el amor a la pasta es sincero.</p>
-            <h4>Dirección</h4>
-            <p>Luis Viale 145 (Villa Crespo, CABA)</p>
-            <h4>Horarios</h4>
-            <p>Lunes a Viernes de 10 a 20hs</p>
-            <p>Sábados y Domingos de 10 a 14hs</p>
-            <a href="#">contacto@ambrosiopastas.com.ar</a>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Whatsapp</a>
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="footer__logo mb-3">Ambrosio</h3>
+                </div>
+                <div class="col-12 col-lg-5 mb-4 footer__body">
+                    <div class="footer__content">
+                        <p class="footer__text">Ambrosio Pastas es un proyecto de desarrollo web diseñado por Paz Spera. La empresa es ficticia pero el amor a la pasta es sincero.</p>
+                        <div class="footer__links d-none d-lg-block">
+                            <a href="#">Facebook</a>
+                            <a href="#">Instagram</a>
+                            <a href="#">Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 offset-lg-2 mb-4  footer__body">
+                    <div class="footer__content mb-4">
+                        <div class="mb-4">
+                            <h4 class="footer__title">Dirección</h4>
+                            <div class="footer__text">
+                                <p>Luis Viale 145 (Villa Crespo, CABA)</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="footer__title">Horarios</h4>
+                            <div class="footer__text">
+                                <p>Lunes a Viernes de 10 a 20hs</p>
+                                <p>Sábados y Domingos de 10 a 14hs</p>
+                                <a href="#" class="mt d-inline-block">contacto@ambrosiopastas.com.ar</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 mb-4 d-lg-none">
+                    <div class="footer__links mt-lg-5">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 

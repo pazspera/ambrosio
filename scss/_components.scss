@@ -83,3 +83,37 @@
         max-width: 45vw;
     }
 }
+
+/* Footer  */
+.footer {
+    background-color: $black;
+    color: $white;
+
+    &__logo {
+        font-family: $font-logo, sans-serif;
+        font-size: $size3;
+    }
+
+    &__text p {
+        margin-bottom: 0;
+    }
+    
+    &__text,
+    &__text a {
+        font-size: $size6;
+    }
+
+    &__title {
+        font-size: $size5;
+        font-weight: 700;
+        font-family: $font-text;
+        text-transform: uppercase;
+    }
+/* 
+    &__content {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: space-evenly;
+    } */
+}
