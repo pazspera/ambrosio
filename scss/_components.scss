@@ -1,7 +1,9 @@
-@import "variables";
-
 /*  Header  */
 .navbar {
     background-color: $black;
 
+    &-brand {
+        font-family: $font-logo;
+        font-size: $size4;
+    }
 }
