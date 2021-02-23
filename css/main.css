@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*  
+    Por default $initial-size es el tamaño para mobile 
+    A los 576px pasa a ser $base-size para todo el sitio
+ */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+/*# sourceMappingURL=main.css.map */
