@@ -114,7 +114,11 @@ a:hover {
 .hero__title span,
 .hero__text span {
   background-color: #2A1A1f;
+  /*  agregar los dos que brave no soporta 
+            box-decoration-break solo
+         */
   box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .hero__title span {

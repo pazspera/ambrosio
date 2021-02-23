@@ -66,9 +66,12 @@
 
     &__title span,
     &__text span {
-        background-color: $black;
-        
+        background-color: $black;        
+        /*  agregar los dos que brave no soporta 
+            box-decoration-break solo
+         */
         box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
     }
 
     /*  box-decoration-break en el span junto con 
