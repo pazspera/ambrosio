@@ -36,4 +36,13 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
 }
+
+/*  
+    Por default $initial-size es el tamaño para mobile 
+    A los 576px pasa a ser $base-size para todo el sitio
+ */
+/*  Header  */
+.navbar {
+  background-color: #2A1A1f;
+}
 /*# sourceMappingURL=main.css.map */
