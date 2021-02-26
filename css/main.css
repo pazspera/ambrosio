@@ -195,6 +195,13 @@ main {
   }
 }
 
+/*  Sombras de imágenes */
+.image--shadow {
+  box-shadow: 25px 25px 0px 0px #F1BF98;
+  -webkit-box-shadow: 25px 25px 0px 0px #F1BF98;
+  -moz-box-shadow: 25px 25px 0px 0px #F1BF98;
+}
+
 /* index  */
 #index {
   background-image: url(../img/hero_index.jpg);
