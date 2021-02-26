@@ -182,6 +182,19 @@ main {
   background-color: #fdfdfd;
 }
 
+/* Cita */
+.cita {
+  background-color: #764134;
+  padding: 3rem 0;
+  height: 100vh;
+}
+
+@media (min-width: 576px) {
+  .cita {
+    height: 55vh;
+  }
+}
+
 /* index  */
 #index {
   background-image: url(../img/hero_index.jpg);
