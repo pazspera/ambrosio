@@ -222,6 +222,42 @@ main {
   height: 100vh;
 }
 
+.cita figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fdfdfd;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cita figure::before {
+  content: '"';
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.cita figure blockquote {
+  text-align: center;
+  font-size: 2.44rem;
+}
+
+.cita figure figcaption {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 @media (min-width: 576px) {
   .cita {
     height: 55vh;
