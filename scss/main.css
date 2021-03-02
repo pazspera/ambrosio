@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/*  
+    Por default $initial-size es el tamaño para mobile 
+    A los 576px pasa a ser $base-size para todo el sitio
+ */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  color: #2A1A1f;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  color: #F1BF98;
+}
+
+a:hover {
+  color: #CBEEF3;
+}
+
+/*  
+    Por default $initial-size es el tamaño para mobile 
+    A los 576px pasa a ser $base-size para todo el sitio
+ */
+/*  Header  */
+.navbar {
+  background-color: #2A1A1f;
+}
+
+.navbar-brand {
+  font-family: "Baumans", serif;
+  font-size: 1.5rem;
+  margin-left: 0;
+}
+
+.navbar .nav-link {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif, sans-serif;
+  text-transform: uppercase;
+}
+
+/*  Hero    */
+.hero {
+  height: 95vh;
+  padding: 2em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*  Styles for background imgs */
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* El span pone el fondo de color y así 
+    puedo tener que el fondo se mantenga en todo
+    el texto sin depender de las col */
+  /*  box-decoration-break en el span junto con 
+        text-align en el title/text hacen que el 
+        fondo se pegue al contenido del texto
+     */
+}
+
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.hero__title {
+  margin: .5em 0;
+}
+
+.hero__text {
+  margin: 1.5em 0;
+}
+
+.hero__title, .hero__text {
+  color: #fdfdfd;
+  font-family: "Playfair Display", serif;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: left;
+}
+
+.hero__title span,
+.hero__text span {
+  background-color: #2A1A1f;
+  /*  agregar los dos que brave no soporta 
+            box-decoration-break solo
+         */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.hero__title span {
+  font-size: 3rem;
+  padding: 0.10em 0.2em 0.15em 0.2em;
+  line-height: 1.3;
+}
+
+.hero__text span {
+  font-size: 1.5rem;
+  padding: 0.25em 0.6em;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 992px) {
+  .hero__text {
+    max-width: 45vw;
+  }
+}
+
+/* Footer  */
+.footer {
+  background-color: #2A1A1f;
+  color: #fdfdfd;
+  /* 
+    &__content {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: space-evenly;
+    } */
+}
+
+.footer__logo {
+  font-family: "Baumans", serif, sans-serif;
+  font-size: 1.95rem;
+}
+
+.footer__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif, sans-serif;
+  text-transform: uppercase;
+}
+
+.footer__text p {
+  margin-bottom: 0;
+}
+
+.footer__text,
+.footer__text a {
+  font-size: 1rem;
+}
+
+.footer__icons {
+  font-size: 1.5rem;
+}
+
+main {
+  background-color: #fdfdfd;
+}
+
+/* Cita */
+.cita {
+  background-color: #764134;
+  padding: 3rem 0;
+  height: 100vh;
+}
+
+@media (min-width: 576px) {
+  .cita {
+    height: 55vh;
+  }
+}
+
+/*  Sombras de imágenes */
+.image--shadow {
+  box-shadow: 25px 25px 0px 0px #F1BF98;
+  -webkit-box-shadow: 25px 25px 0px 0px #F1BF98;
+  -moz-box-shadow: 25px 25px 0px 0px #F1BF98;
+}
+
+.image__overlap {
+  max-height: 700px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.2fr (1fr)[4] 0.2fr;
+      grid-template-columns: 0.2fr repeat(4, 1fr) 0.2fr;
+  -ms-grid-rows: 0.2fr (1fr)[5] 1fr;
+      grid-template-rows: 0.2fr repeat(5, 1fr) 1fr;
+}
+
+.image__overlap--top {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3 / span 3;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+  grid-row: 4 / span 3;
+}
+
+.image__overlap--bottom {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 /span 3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2 / span 3;
+}
+
+/* index  */
+#index {
+  background-image: url(../img/hero_index.jpg);
+  background-position: center right;
+}
+
+/* que_hacemos */
+#que_hacemos {
+  background-image: url(../img/hero_que_hacemos.jpg);
+}
+
+/* quienes_somos */
+#quienes_somos {
+  background-image: url(../img/hero_quienes_somos.jpg);
+  background-position: center;
+}
+
+/* contacto */
+#contacto {
+  background-image: url(../img/hero_contacto.jpg);
+}
+
+/*  Container   */
+.container {
+  width: 90%;
+  max-width: 1250px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -20,7 +20,6 @@
     .nav-link {
         @include title-link();
     }
-
 }
 
 
@@ -164,16 +163,16 @@ main {
     &__overlap {
         max-height: 700px;
         display: grid;
-        grid-template-columns: repeat(2, 0.5fr) repeat(4, 1fr) repeat(2, 0.5fr);
-        grid-template-rows: 0.5fr repeat(5, 1fr) 0.5fr;
+        grid-template-columns: 0.2fr repeat(4, 1fr) 0.2fr;
+        grid-template-rows: 0.2fr repeat(5, 1fr) 1fr ;
 
         &--top {
-            grid-column: 4 / span 3;
+            grid-column: 3 / span 3;
             grid-row: 4 / span 3;
         }
 
         &--bottom {
-            grid-column: 3 /span 3;
+            grid-column: 2 /span 3;
             grid-row: 2 / span 3;
         }
     }
