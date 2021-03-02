@@ -224,8 +224,8 @@ main {
   display: grid;
   -ms-grid-columns: 0.2fr (1fr)[4] 0.2fr;
       grid-template-columns: 0.2fr repeat(4, 1fr) 0.2fr;
-  -ms-grid-rows: 0.2fr (1fr)[5] 1fr;
-      grid-template-rows: 0.2fr repeat(5, 1fr) 1fr;
+  -ms-grid-rows: 0.2fr (1fr)[5] 0.2fr;
+      grid-template-rows: 0.2fr repeat(5, 1fr) 0.2fr;
 }
 
 .image__overlap--top {

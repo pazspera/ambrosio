@@ -164,7 +164,7 @@ main {
         max-height: 700px;
         display: grid;
         grid-template-columns: 0.2fr repeat(4, 1fr) 0.2fr;
-        grid-template-rows: 0.2fr repeat(5, 1fr) 1fr ;
+        grid-template-rows: 0.2fr repeat(5, 1fr) 0.2fr ;
 
         &--top {
             grid-column: 3 / span 3;
