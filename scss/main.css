@@ -70,6 +70,23 @@ a:hover {
   text-transform: uppercase;
 }
 
+.navbar-dark,
+.navbar-brand,
+.navbar-nav,
+.nav-link {
+  color: #F1BF98 !important;
+}
+
+.navbar-dark:hover, .navbar-dark:focus,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-nav:hover,
+.navbar-nav:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: #CBEEF3 !important;
+}
+
 /*  Hero    */
 .hero {
   height: 95vh;
