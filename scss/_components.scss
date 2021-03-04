@@ -2,9 +2,9 @@
 
 @mixin title-link {
     font-size: $size5;
-    font-weight: 700;
     font-family: $font-text, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 /*  Header  */
@@ -15,6 +15,7 @@
         font-family: $font-logo;
         font-size: $size4;
         margin-left: 0;
+        letter-spacing: 0.1rem;
     }
 
     .nav-link {
@@ -118,6 +119,7 @@
     &__logo {
         font-family: $font-logo, sans-serif;
         font-size: $size3;
+        letter-spacing: 0.1rem;
     }
 
     &__title {

@@ -61,13 +61,14 @@ a:hover {
   font-family: "Baumans", serif;
   font-size: 1.5rem;
   margin-left: 0;
+  letter-spacing: 0.1rem;
 }
 
 .navbar .nav-link {
   font-size: 1.25rem;
-  font-weight: 700;
   font-family: "Raleway", sans-serif, sans-serif;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 .navbar-dark,
@@ -189,13 +190,14 @@ a:hover {
 .footer__logo {
   font-family: "Baumans", serif, sans-serif;
   font-size: 1.95rem;
+  letter-spacing: 0.1rem;
 }
 
 .footer__title {
   font-size: 1.25rem;
-  font-weight: 700;
   font-family: "Raleway", sans-serif, sans-serif;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 .footer__text p {
