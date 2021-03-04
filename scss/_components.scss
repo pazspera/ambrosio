@@ -271,12 +271,20 @@ main {
 
     &__image {
         padding: 0;
-        
-        image {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            object-position: center;
-        }
-    }
 } 
+
+.grid-image {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /*  
+    El problema parece estar en el tamaño de las img.
+    Moviendo de desktop a mobile queda una franja
+    blanca en la parte de abajo.     
+    Probar aumentando tamaño de img en Photoshop
+    para que sean 311x352 como la 3era img que
+    funciona bien
+    */
+}

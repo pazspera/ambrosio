@@ -357,7 +357,7 @@ main {
   padding: 0;
 }
 
-.grid-card__image image {
+.grid-image {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
