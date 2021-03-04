@@ -318,6 +318,30 @@ main {
           box-shadow: 0 0 0 0.25rem #CBEEF3;
 }
 
+/* Grid con colores que_hacemos.html*/
+.grid-card {
+  padding: 1rem 1.5rem;
+}
+
+.grid-card--primary-light {
+  background-color: #F1BF98;
+}
+
+.grid-card--primary {
+  background-color: #764134;
+  color: #fdfdfd;
+}
+
+.grid-card--secondary {
+  background-color: #CBEEF3;
+}
+
+.grid-card__title {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 1.95rem;
+}
+
 /* index  */
 #index {
   background-image: url(../img/hero_index.jpg);

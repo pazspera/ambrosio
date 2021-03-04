@@ -233,3 +233,27 @@ main {
         }
     }
 }
+
+/* Grid con colores que_hacemos.html*/
+.grid-card {
+    padding: 1rem 1.5rem;
+
+    &--primary-light {
+        background-color: $primary--light;
+    }
+
+    &--primary {
+        background-color: $primary;
+        color: $white;
+    }
+
+    &--secondary {
+        background-color: $secondary;
+    }
+
+    &__title {
+        text-align: center;
+        padding-bottom: 1rem;
+        font-size: $size3;
+    }
+} 
