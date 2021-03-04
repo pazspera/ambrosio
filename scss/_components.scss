@@ -23,6 +23,7 @@
     }
 }
 
+/*  Agrega margin a los nav-links en desktop */
 @media(min-width: 996px) {
     .nav-item {
         margin-left: 1.2rem !important;
@@ -270,9 +271,12 @@ main {
 
     &__image {
         padding: 0;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
+        
+        image {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
     }
 } 

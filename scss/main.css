@@ -71,6 +71,7 @@ a:hover {
   letter-spacing: 0.1rem;
 }
 
+/*  Agrega margin a los nav-links en desktop */
 @media (min-width: 996px) {
   .nav-item {
     margin-left: 1.2rem !important;
@@ -354,6 +355,9 @@ main {
 
 .grid-card__image {
   padding: 0;
+}
+
+.grid-card__image image {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
