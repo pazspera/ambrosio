@@ -238,6 +238,10 @@ main {
 .grid-card {
     padding: 1rem 1.5rem;
 
+    &--small  {
+        padding: 1rem;
+    }
+
     &--primary-light {
         background-color: $primary--light;
     }
@@ -255,5 +259,11 @@ main {
         text-align: center;
         padding-bottom: 1rem;
         font-size: $size3;
+    }
+
+    &__image {
+        padding: 0;
+        object-fit: cover;
+        object-position: center;
     }
 } 
