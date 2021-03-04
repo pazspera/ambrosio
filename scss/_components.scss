@@ -64,7 +64,7 @@
     &__title,
     &__text {
         color: $white;
-        font-family: $font-title;
+        font-family: $font-title;        
         align-self: start;
         justify-self: center;
         text-align: left;
@@ -96,7 +96,7 @@
     }
 
     &__text span {
-        font-size: $size4;
+        font-size: $size5;
         padding: 0.25em 0.6em;
         margin-bottom: 3rem;
         line-height: 1.6;
@@ -154,7 +154,6 @@ main {
 .cita {
     background-color: $primary;
     padding: 3rem 0;
-    height: 100vh;
 
     figure {
         display: flex;
@@ -181,12 +180,6 @@ main {
             font-size: $size6;
             font-weight: 700;
         }
-    }
-}
-
-@media(min-width: 576px){
-    .cita {
-        height: 55vh;
     }
 }
 

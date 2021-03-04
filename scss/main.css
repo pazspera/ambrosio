@@ -161,7 +161,7 @@ a:hover {
 }
 
 .hero__text span {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0.25em 0.6em;
   margin-bottom: 3rem;
   line-height: 1.6;
@@ -219,7 +219,6 @@ main {
 .cita {
   background-color: #764134;
   padding: 3rem 0;
-  height: 100vh;
 }
 
 .cita figure {
@@ -256,12 +255,6 @@ main {
 .cita figure figcaption {
   font-size: 1rem;
   font-weight: 700;
-}
-
-@media (min-width: 576px) {
-  .cita {
-    height: 55vh;
-  }
 }
 
 /*  Sombras de imágenes */
