@@ -71,6 +71,12 @@ a:hover {
   letter-spacing: 0.1rem;
 }
 
+@media (min-width: 996px) {
+  .nav-item {
+    margin-left: 1.2rem !important;
+  }
+}
+
 .navbar-dark,
 .navbar-brand,
 .navbar-nav,
@@ -348,6 +354,8 @@ main {
 
 .grid-card__image {
   padding: 0;
+  height: 100%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
