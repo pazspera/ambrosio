@@ -370,6 +370,8 @@ main {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  vertical-align: text-bottom;
+  display: block;
 }
 
 /* index  */
