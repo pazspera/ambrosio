@@ -43,6 +43,17 @@
     }
 }
 
+// Override color del navbar-toggler
+.navbar-dark, 
+.navbar-toggler {
+    color: $primary--light;
+
+    &:hover,
+    &:focus {
+        color: $primary--light;
+    }
+}
+
 /*  Hero    */
 .hero {
     height: 95vh;

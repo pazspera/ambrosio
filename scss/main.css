@@ -95,6 +95,17 @@ a:hover {
   color: #CBEEF3 !important;
 }
 
+.navbar-dark,
+.navbar-toggler {
+  color: #F1BF98;
+}
+
+.navbar-dark:hover, .navbar-dark:focus,
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  color: #F1BF98;
+}
+
 /*  Hero    */
 .hero {
   height: 95vh;
