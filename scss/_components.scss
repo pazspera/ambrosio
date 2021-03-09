@@ -255,21 +255,7 @@ main {
     }
 }
 
-/* Map */
+// Map
 .map {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 62.5%;
-
-    &__iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
+    margin-bottom: -2rem;
 }
-
