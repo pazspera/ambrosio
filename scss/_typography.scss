@@ -28,9 +28,13 @@ a {
 
     &::first-letter {
         float: left;
-        font-size: 5.1rem;
-        line-height: 0.65;
+        font-size: 6rem;
+        line-height: 0;
         margin: 0.1em 0.1em 0.1em 0;
     }   
 
+}
+
+.main-title {
+    font-size: $size2;
 }
