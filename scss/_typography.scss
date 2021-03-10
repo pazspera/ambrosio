@@ -21,3 +21,16 @@ a {
         color: $secondary
     }
 }
+
+.capital-letter {
+    -webkit-initial-letter: 3;
+    initial-letter: 3;
+
+    &::first-letter {
+        float: left;
+        font-size: 5.1rem;
+        line-height: 0.65;
+        margin: 0.1em 0.1em 0.1em 0;
+    }   
+
+}
