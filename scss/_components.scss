@@ -259,3 +259,11 @@ main {
 .map {
     margin-bottom: -.6rem;
 }
+
+// Image row en que_hacemos
+.image-row {
+
+    &__image {
+        width: 100%;
+    }
+}
