@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,74 +11,86 @@
     <script src="https://kit.fontawesome.com/d797ccce11.js" crossorigin="anonymous"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baumans&family=Playfair+Display:wght@700&family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baumans&family=Playfair+Display:wght@700&family=Raleway:wght@500;700&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="../css/bootstrap.css">
     <!-- CSS -->
     <link rel="stylesheet" href="../scss/main.css">
     <title>Contacto - Ambrosio</title>
 </head>
-<body>
-        <!-- Menú navegación -->
-        <header class="sticky-top"> 
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container">
-                  <a class="navbar-brand" aria-current="page" href="../index.html">Ambrosio</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                      <li class="nav-item">
-                        <a class="nav-link"  href="que_hacemos.html">Qué Hacemos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="quienes_somos.html">Quiénes Somos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-            </nav>
-        </header>
 
-        <!-- Hero  -->
-        <section class="hero" id="contacto">
-            <div class="hero__container container">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="hero__title"><span>Contacto</span></h1>
-                        <p class="hero__text"><span> Ooboshu sgn'wahloth 'aiyar y-Tsathoggua shoggah shagg ngnog Azathoth naflnog 'bthnk ebunma, y-vulgtlagln y'hah.</span> </p>
-                    </div>
+<body>
+    <!-- Menú navegación -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" aria-current="page" href="../index.html">Ambrosio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="que_hacemos.html">Qué Hacemos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienes_somos.html">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>    
+        </nav>
+    </header>
+
+    <!-- Hero  -->
+    <section class="hero" id="contacto">
+        <div class="hero__container container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="hero__title"><span>Contacto</span></h1>
+                    <p class="hero__text"><span> Ooboshu sgn'wahloth 'aiyar y-Tsathoggua shoggah shagg ngnog Azathoth
+                            naflnog 'bthnk ebunma, y-vulgtlagln y'hah.</span> </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Contenido principal -->
     <main class="pt-5">
         <div class="container">
-            <h2>Contacto</h2>
-            <form action="#">
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="">
+            <h2 class="secondary-title">Contacto</h2>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <form action="#">
+                        <div class="form-group mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" name="nombre" id="" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" name="email" id="" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <input type="text" name="mensaje" id="" class="form-control" rows="3">
+                        </div>
+                        <button type="submit" class="btn btn__primary btn__large mt-4">Enviar</button>
+                    </form>
                 </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="">
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <input type="text" name="mensaje" id="">
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
+            </div>
         </div>
 
         <div class="map mt-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26273.63513265008!2d-58.44310277419433!3d-34.59899274935772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1615266220881!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26273.63513265008!2d-58.44310277419433!3d-34.59899274935772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1615266220881!5m2!1ses!2sar"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </main>
 
@@ -92,7 +105,8 @@
                 <!-- Texto/links redes -->
                 <div class="col-12 col-md-8 col-lg-5 mt-lg-3 mb-4 footer__body">
                     <div class="footer__content">
-                        <p class="footer__text">Ambrosio Pastas es un proyecto de desarrollo web diseñado por Paz Spera. La empresa es ficticia pero el amor a la pasta es sincero.</p>
+                        <p class="footer__text">Ambrosio Pastas es un proyecto de desarrollo web diseñado por Paz Spera.
+                            La empresa es ficticia pero el amor a la pasta es sincero.</p>
                         <div class="footer__links d-none d-lg-block mt-lg-5">
                             <a href="#" class="me-4 footer__icons"><i class="fa fa-facebook"></i></a>
                             <a href="#" class="me-4 footer__icons"><i class="fa fa-instagram"></i></a>
@@ -118,7 +132,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <!-- Links redes -->
                 <div class="col-12 mb-4 d-lg-none">
@@ -135,4 +149,5 @@
     <!-- Bootstrap JS -->
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

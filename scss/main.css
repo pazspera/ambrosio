@@ -61,7 +61,13 @@ a:hover {
 }
 
 .main-title {
+  margin-bottom: 2rem !important;
   font-size: 3rem;
+}
+
+.secondary-title {
+  margin-bottom: 2rem !important;
+  font-size: 2.44rem;
 }
 
 /*  
@@ -351,6 +357,10 @@ main {
 .btn__primary:focus {
   -webkit-box-shadow: 0 0 0 0.25rem #CBEEF3;
           box-shadow: 0 0 0 0.25rem #CBEEF3;
+}
+
+.btn__large {
+  padding: .75rem 3rem;
 }
 
 .map {

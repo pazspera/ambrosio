@@ -253,6 +253,10 @@ main {
             box-shadow: 0 0 0 0.25rem $secondary;
         }
     }
+
+    &__large {
+        padding: .75rem 3rem;
+    }
 }
 
 // Map
