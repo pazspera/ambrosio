@@ -371,6 +371,12 @@ main {
   width: 100%;
 }
 
+.form-control:focus {
+  border-color: #CBEEF3;
+  -webkit-box-shadow: 0 0 0 0.25rem #CBEEF3;
+          box-shadow: 0 0 0 0.25rem #CBEEF3;
+}
+
 /*  
     Por default $initial-size es el tamaño para mobile 
     A los 576px pasa a ser $base-size para todo el sitio
