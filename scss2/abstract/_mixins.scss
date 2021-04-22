@@ -1,0 +1,8 @@
+// Mixin para formato links de header y footer
+
+@mixin title-link {
+    font-size: $size5;
+    font-family: $font-text, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
