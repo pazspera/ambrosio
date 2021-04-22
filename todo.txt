@@ -1,0 +1,17 @@
+- Revisar los márgenes de las secciones, el margen top y bottom no están iguales (index). Hacerlo con css en vez de con las clases de Bootstrap
+
+- Las comillas del quote son demasiado chicas y tienen demasiado margen, hacen que la quote sea demasiado ancha. Probé poniéndole margin negativo pero causó problemas con el footer
+
+- En el index, en el primer bloque de texto agregar descripción del proyecto y poner las distintas herramientas que usé para hacer el sitio
+
+- Cambiar los iconos de redes sociales para que estén conectados con mi github y behance
+
+- Cambiar texto de pastas en que_hacemos
+
+- Agregar imagen y rectángulo con texto a la página de contacto
+
+- Hacer que el campo de mensaje del formulario sea más alto 
+
+- Revisar el texto lorem, el index y parte de que hacemos tiene lorem en vez de cthulhu ipsum 
+
+- Agregar un efecto de animación al menú de navegación, que aparezca una línea de abajo que crezca desde el medio. Eso para los links y para el logo del menú
