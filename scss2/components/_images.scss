@@ -1,0 +1,35 @@
+@import '../abstract/variables';
+
+/*  Sombras de imágenes */
+.image {
+    &--shadow {
+        box-shadow: 25px 25px 0px 0px $primary--light;
+        -webkit-box-shadow: 25px 25px 0px 0px $primary--light;
+        -moz-box-shadow: 25px 25px 0px 0px $primary--light;
+    }
+
+    &__overlap {
+        max-height: 700px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) 0.2fr;
+        grid-template-rows:  repeat(5, 1fr) 0.2fr ;
+
+        &--top {
+            grid-column: 2 / span 3;
+            grid-row: 3 / span 3;
+        }
+
+        &--bottom {
+            grid-column: 1 /span 3;
+            grid-row: 1 / span 3;
+        }
+    }
+}
+
+// Image row en que_hacemos
+.image-row {
+
+    &__image {
+        width: 100%;
+    }
+}

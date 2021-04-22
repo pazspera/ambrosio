@@ -1,0 +1,98 @@
+/*  Hero    */
+.hero {
+    height: 95vh;
+    padding: 2em 0;
+    display: flex;
+    /*  Styles for background imgs */
+    max-width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    &__title {
+        margin: .5em 0;
+    }
+
+    &__text {
+        margin: 1.5em 0;
+    }
+
+    &__title,
+    &__text {
+        color: $white;
+        font-family: $font-title;        
+        align-self: start;
+        justify-self: center;
+        text-align: left;
+    }
+
+    /* El span pone el fondo de color y así 
+    puedo tener que el fondo se mantenga en todo
+    el texto sin depender de las col */
+
+    &__title span,
+    &__text span {
+        background-color: $black;        
+        /*  agregar los dos que brave no soporta 
+            box-decoration-break solo
+         */
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
+    }
+
+    /*  box-decoration-break en el span junto con 
+        text-align en el title/text hacen que el 
+        fondo se pegue al contenido del texto
+     */
+
+    &__title span {
+        font-size: $size1;   
+        padding: 0.10em 0.2em 0.15em 0.2em;
+        line-height: 1.3;
+    }
+
+    &__text span {
+        font-size: $size5;
+        padding: 0.25em 0.6em;
+        margin-bottom: 3rem;
+        line-height: 1.6;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero__text {
+        max-width: 45vw;
+    }
+}
+
+// Imágenes de fondo de los hero de las distintas páginas 
+
+/* index  */ 
+#index {
+    background-image: url(../img/hero_index.jpg);
+    background-position: center right;
+}
+
+/* que_hacemos */
+#que_hacemos {
+    background-image: url(../img/hero_que_hacemos.jpg);
+}
+
+/* quienes_somos */
+#quienes_somos {
+    background-image: url(../img/hero_quienes_somos.jpg);
+    background-position: center;
+}
+
+/* contacto */
+#contacto {
+    background-image: url(../img/hero_contacto.jpg);
+}

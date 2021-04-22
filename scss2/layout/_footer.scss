@@ -1,0 +1,44 @@
+@import '../abstract/mixins';
+@import '../abstract/variables';
+
+/* Footer  */
+.footer {
+    background-color: $black;
+    color: $white;
+
+
+    &__logo {
+        font-family: $font-logo, sans-serif;
+        font-size: $size3;
+        letter-spacing: 0.1rem;
+    }
+
+    &__title {
+        @include title-link();
+    }
+
+    &__text p {
+        margin-bottom: 0;
+    }
+
+    &__text,
+    &__text a {
+        font-size: $size6;
+    }
+
+    &__icons {
+        font-size: $size4;
+    }
+    
+/* 
+    &__content {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: space-evenly;
+    } */
+}
+
+main {
+    background-color: $white;
+}
