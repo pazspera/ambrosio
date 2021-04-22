@@ -24,7 +24,7 @@
 
     &__title {
         text-align: center;
-        padding-bottom: 1rem;
+        padding: 0.75rem 0 1.5rem 0;
         font-size: $size2;
     }
 
@@ -40,4 +40,8 @@
     object-fit: cover;
     object-position: center;
     display: block;
+}
+
+.grid-list {
+    line-height: 2;
 }
