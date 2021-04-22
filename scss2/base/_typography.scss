@@ -34,19 +34,3 @@ a {
     }   
 
 }
-
-
-@mixin title-margin {
-    margin-bottom: 2rem !important;
-}
-
-.main-title {
-    @include title-margin;
-    font-size: $size1;
-}
-
-.secondary-title {
-    @include title-margin;
-    font-size: $size2;
-}
-

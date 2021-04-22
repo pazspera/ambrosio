@@ -1,0 +1,26 @@
+// Colors
+$black: #2A1A1f;
+$white: #fdfdfd;
+$primary: #764134;
+$primary--light: #F1BF98;
+$secondary: #CBEEF3;
+$secondary--dark: #62BBC1;
+
+// Fonts
+$font-text: 'Raleway', sans-serif;
+$font-title: 'Playfair Display', serif;
+$font-logo: 'Baumans', serif;
+
+// Sizes
+$initial-size: 16px;
+$base-size: 18px;
+/*  
+    Por default $initial-size es el tamaño para mobile 
+    A los 576px pasa a ser $base-size para todo el sitio
+ */
+$size1: 3rem;
+$size2: 2.44rem;
+$size3: 1.95rem;
+$size4: 1.5rem;
+$size5: 1.25rem;
+$size6: 1rem;
