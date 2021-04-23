@@ -7,7 +7,9 @@
     Por default $initial-size es el tamaño para mobile 
     A los 576px pasa a ser $base-size para todo el sitio
  */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
@@ -312,6 +314,10 @@ a:hover {
 .container {
   width: 90%;
   max-width: 1250px;
+}
+
+.section-space {
+  margin: 1.2em 0;
 }
 
 /*  
