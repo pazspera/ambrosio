@@ -1,12 +1,8 @@
 PENDIENTES
 
-- Revisar los márgenes de las secciones, el margen top y bottom no están iguales (index). Hacerlo con css en vez de con las clases de Bootstrap
-
 - Las comillas del quote son demasiado chicas y tienen demasiado margen, hacen que la quote sea demasiado ancha. Probé poniéndole margin negativo pero causó problemas con el footer
 
 - En el index, en el primer bloque de texto agregar descripción del proyecto y poner las distintas herramientas que usé para hacer el sitio
-
-- Cambiar los iconos de redes sociales para que estén conectados con mi github y behance
 
 - Agregar imagen y rectángulo con texto a la página de contacto
 
@@ -16,10 +12,14 @@ PENDIENTES
 
 - Agregar un efecto de animación al menú de navegación, que aparezca una línea de abajo que crezca desde el medio. Eso para los links y para el logo del menú
 
-- También en el menú de navegación, agregar cambio de formato en cada página para que el menú de navegación indique en qué página estamos parados
-
 ***
 
 TERMINADOS 
 
 - Cambiar texto de pastas en que_hacemos
+
+- Revisar los márgenes de las secciones, el margen top y bottom no están iguales (index). Hacerlo con css en vez de con las clases de Bootstrap
+
+- Cambiar los iconos de redes sociales para que estén conectados con mi github y behance
+
+- También en el menú de navegación, agregar cambio de formato en cada página para que el menú de navegación indique en qué página estamos parados
