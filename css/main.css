@@ -475,6 +475,11 @@ main {
   color: #CBEEF3 !important;
 }
 
+.active {
+  font-weight: 700;
+  color: #fdfdfd !important;
+}
+
 .navbar-dark,
 .navbar-toggler {
   color: #F1BF98;

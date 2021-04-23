@@ -37,6 +37,12 @@
     }
 }
 
+// Color para mostrar página activa en navbar
+.active {
+    font-weight: 700;
+    color: $white !important;
+}
+
 // Override color del navbar-toggler
 .navbar-dark, 
 .navbar-toggler {
