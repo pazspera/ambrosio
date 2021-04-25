@@ -5,12 +5,7 @@
     height: 95vh;
     padding: 2em 0;
     display: flex;
-    /*  Styles for background imgs */
-    max-width: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    @include background-image;
 
     &__container {
         display: flex;

@@ -1,5 +1,4 @@
 // Mixin para formato links de header y footer
-
 @mixin title-link {
     font-size: $size5;
     font-family: $font-text, sans-serif;
@@ -7,3 +6,11 @@
     letter-spacing: 0.1rem;
 }
 
+// Mixin para imágenes de fondo
+@mixin background-image {
+    max-width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
