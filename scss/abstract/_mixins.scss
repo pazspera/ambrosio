@@ -7,10 +7,3 @@
     letter-spacing: 0.1rem;
 }
 
-// Mixin para formato de las comillas de la cita
-@mixin format-quote {
-    position: absolute;
-    font-family: $font-title;
-    font-size: 7rem;
-    color: $primary--light;
-}

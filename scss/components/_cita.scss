@@ -25,30 +25,9 @@
         blockquote {
             position: relative;
             text-align: center;
-            font-size: $size2;
-            quotes: "\201C""\201D""\2018""\2019";
-            padding: 2rem 0;
-            width: 100vw;
+            font-size: $size3;
+            padding: 1rem 0 0.5rem 0;
             max-width: 1300px;
-
-            &::before {
-               content: open-quote;
-               @include format-quote;
-               top: -4rem;  
-               left: 15vw;
-            }
-
-            &::after {
-                content: close-quote;
-                @include format-quote;
-                bottom: -7.5rem;
-                right: 15%;
-            }
-
-            p {
-                max-width: 60%;
-                margin: 0 auto;
-            }
 
         }
 
@@ -58,3 +37,4 @@
         }
     }
 }
+
