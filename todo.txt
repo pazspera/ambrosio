@@ -6,8 +6,6 @@ PENDIENTES
 
 - Agregar imagen y rectángulo con texto a la página de contacto
 
-- Hacer que el campo de mensaje del formulario sea más alto 
-
 - Revisar el texto lorem, el index y parte de que hacemos tiene lorem en vez de cthulhu ipsum 
 
 - Agregar un efecto de animación al menú de navegación, que aparezca una línea de abajo que crezca desde el medio. Eso para los links y para el logo del menú
@@ -23,3 +21,5 @@ TERMINADOS
 - Cambiar los iconos de redes sociales para que estén conectados con mi github y behance
 
 - También en el menú de navegación, agregar cambio de formato en cada página para que el menú de navegación indique en qué página estamos parados
+
+- Hacer que el campo de mensaje del formulario sea más alto 

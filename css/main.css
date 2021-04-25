@@ -109,6 +109,7 @@ a:hover {
 .cita {
   background-color: #764134;
   padding: 3rem 0;
+  overflow: hidden;
 }
 
 .cita figure {
@@ -128,18 +129,47 @@ a:hover {
   color: #fdfdfd;
   max-width: 700px;
   margin: 0 auto;
-}
-
-.cita figure::before {
-  content: '"';
-  font-family: "Playfair Display", serif;
-  font-size: 3rem;
-  margin: 0;
+  /*         &::before {
+            content: '"';
+            font-family: $font-title;
+            font-size: 3rem;
+            margin: 0;
+        } */
 }
 
 .cita figure blockquote {
+  position: relative;
   text-align: center;
   font-size: 2.44rem;
+  quotes: "“" "”" "‘" "’";
+  padding: 2rem 0;
+  width: 100vw;
+  max-width: 1300px;
+}
+
+.cita figure blockquote::before {
+  content: open-quote;
+  position: absolute;
+  font-family: "Playfair Display", serif;
+  font-size: 7rem;
+  color: #F1BF98;
+  top: -4rem;
+  left: 15vw;
+}
+
+.cita figure blockquote::after {
+  content: close-quote;
+  position: absolute;
+  font-family: "Playfair Display", serif;
+  font-size: 7rem;
+  color: #F1BF98;
+  bottom: -7.5rem;
+  right: 15%;
+}
+
+.cita figure blockquote p {
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .cita figure figcaption {

@@ -4,6 +4,7 @@
 .cita {
     background-color: $primary;
     padding: 3rem 0;
+    overflow: hidden;
 
     figure {
         display: flex;
@@ -14,16 +15,41 @@
         max-width: 700px;
         margin: 0 auto;
 
-        &::before {
+/*         &::before {
             content: '"';
             font-family: $font-title;
             font-size: 3rem;
             margin: 0;
-        }
+        } */
 
         blockquote {
+            position: relative;
             text-align: center;
             font-size: $size2;
+            quotes: "\201C""\201D""\2018""\2019";
+            padding: 2rem 0;
+            width: 100vw;
+            max-width: 1300px;
+
+            &::before {
+               content: open-quote;
+               @include format-quote;
+               top: -4rem;  
+               left: 15vw;
+            }
+
+            &::after {
+                content: close-quote;
+                @include format-quote;
+                bottom: -7.5rem;
+                right: 15%;
+            }
+
+            p {
+                max-width: 60%;
+                margin: 0 auto;
+            }
+
         }
 
         figcaption {
