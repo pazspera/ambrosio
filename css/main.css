@@ -18,6 +18,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 16px;
+  background-color: #fdfdfd;
 }
 
 body {
@@ -365,24 +366,25 @@ a:hover {
   z-index: 5;
 }
 
-/* .contacto-grid {
+@media (min-width: 600px) {
+  .contacto-grid {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
-    grid-template-rows: repeat(3, 1fr);
-    background-image: url(../../img/pasta_ajo.jpg);
+    -ms-grid-columns: 0.5fr (1fr)[4] 0.5fr;
+        grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+  }
+  .contacto-grid .cuadrado {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-column: 3 / 6;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    z-index: 5;
+  }
+}
 
-    .image {
-        grid-column: 1 / 6;
-        grid-row: 1 / 4;
-        z-index: 1;
-    }
-
-    .cuadrado  {
-        grid-column: 3 / 6;
-        grid-row: 2;
-        z-index: 5;
-    }
-} */
 /*  Container   */
 .container {
   width: 90%;

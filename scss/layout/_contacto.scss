@@ -37,21 +37,16 @@
     }
 }
 
-/* .contacto-grid {
-    display: grid;
-    grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
-    grid-template-rows: repeat(3, 1fr);
-    background-image: url(../../img/pasta_ajo.jpg);
-
-    .image {
-        grid-column: 1 / 6;
-        grid-row: 1 / 4;
-        z-index: 1;
-    }
-
-    .cuadrado  {
-        grid-column: 3 / 6;
-        grid-row: 2;
-        z-index: 5;
-    }
-} */
+@media (min-width: 600px) {
+    .contacto-grid {
+        display: grid;
+        grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
+        grid-template-rows: repeat(3, 1fr);
+    
+        .cuadrado  {
+            grid-column: 3 / 6;
+            grid-row: 2;
+            z-index: 5;
+        }
+    } 
+}
