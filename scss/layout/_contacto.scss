@@ -1,0 +1,61 @@
+// Cuadrado con información de contacto
+
+.cuadrado {
+    background-color: $black;
+    color: $white;
+    padding: 1rem;
+    line-height: 1.1;
+
+    &__texto {
+        font-size: $size6;
+    }
+
+    &__title {
+        font-family: $font-text;
+        text-transform: uppercase;
+        font-size: $size5;
+    }
+}
+
+.contacto-grid {
+    display: grid;
+    grid-template-columns: 0.25fr repeat(2, 1fr) 0.5fr 0.25fr;
+    grid-template-rows: repeat(5, 0.5fr);
+    background-image: url(../img/pasta_ajo.jpg);
+    max-width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .image {
+        grid-column: 1 / 6;
+        grid-row: 1 /6;
+        z-index: 1;
+    }
+
+    .cuadrado {
+        grid-column: 2 / span 2;
+        grid-row: 3 / span 2;
+        z-index: 5;
+    }
+}
+
+/* .contacto-grid {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
+    grid-template-rows: repeat(3, 1fr);
+    background-image: url(../../img/pasta_ajo.jpg);
+
+    .image {
+        grid-column: 1 / 6;
+        grid-row: 1 / 4;
+        z-index: 1;
+    }
+
+    .cuadrado  {
+        grid-column: 3 / 6;
+        grid-row: 2;
+        z-index: 5;
+    }
+} */

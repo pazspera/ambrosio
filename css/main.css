@@ -313,6 +313,77 @@ a:hover {
   margin-bottom: -.6rem;
 }
 
+.cuadrado {
+  background-color: #2A1A1f;
+  color: #fdfdfd;
+  padding: 1rem;
+  line-height: 1.1;
+}
+
+.cuadrado__texto {
+  font-size: 1rem;
+}
+
+.cuadrado__title {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.contacto-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.25fr (1fr)[2] 0.5fr 0.25fr;
+      grid-template-columns: 0.25fr repeat(2, 1fr) 0.5fr 0.25fr;
+  -ms-grid-rows: (0.5fr)[5];
+      grid-template-rows: repeat(5, 0.5fr);
+  background-image: url(../img/pasta_ajo.jpg);
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contacto-grid .image {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  grid-row: 1 /6;
+  z-index: 1;
+}
+
+.contacto-grid .cuadrado {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 / span 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / span 2;
+  z-index: 5;
+}
+
+/* .contacto-grid {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
+    grid-template-rows: repeat(3, 1fr);
+    background-image: url(../../img/pasta_ajo.jpg);
+
+    .image {
+        grid-column: 1 / 6;
+        grid-row: 1 / 4;
+        z-index: 1;
+    }
+
+    .cuadrado  {
+        grid-column: 3 / 6;
+        grid-row: 2;
+        z-index: 5;
+    }
+} */
 /*  Container   */
 .container {
   width: 90%;
