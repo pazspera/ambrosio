@@ -69,6 +69,11 @@ a:hover {
   margin: 0.1em 0.1em 0.1em 0;
 }
 
+.main-title {
+  margin-bottom: 2rem;
+  font-size: 2.44rem;
+}
+
 /*  
     Por default $initial-size es el tamaño para mobile 
     A los 576px pasa a ser $base-size para todo el sitio
@@ -310,7 +315,7 @@ a:hover {
     A los 576px pasa a ser $base-size para todo el sitio
  */
 .map {
-  margin-bottom: -.6rem;
+  margin-bottom: -3.5rem;
 }
 
 .cuadrado {
@@ -330,11 +335,16 @@ a:hover {
   font-size: 1.25rem;
 }
 
+.contacto-grid,
+.contacto-form {
+  margin-bottom: 3rem;
+}
+
 .contacto-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.25fr (1fr)[2] 0.5fr 0.25fr;
-      grid-template-columns: 0.25fr repeat(2, 1fr) 0.5fr 0.25fr;
+  -ms-grid-columns: 0.25fr (1fr)[2] (0.5fr)[4];
+      grid-template-columns: 0.25fr repeat(2, 1fr) repeat(4, 0.5fr);
   -ms-grid-rows: (0.5fr)[5];
       grid-template-rows: repeat(5, 0.5fr);
   background-image: url(../img/pasta_ajo.jpg);
@@ -344,22 +354,13 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.contacto-grid .image {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
-  grid-column: 1 / 6;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 5;
-  grid-row: 1 /6;
-  z-index: 1;
+  max-width: none;
 }
 
 .contacto-grid .cuadrado {
   -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-column: 2 / span 2;
+  -ms-grid-column-span: 5;
+  grid-column: 2 / 7;
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
   grid-row: 3 / span 2;
@@ -376,13 +377,21 @@ a:hover {
         grid-template-rows: repeat(3, 1fr);
   }
   .contacto-grid .cuadrado {
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 3;
-    grid-column: 3 / 6;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-column: 2 / 6;
     -ms-grid-row: 2;
     grid-row: 2;
     z-index: 5;
   }
+}
+
+label {
+  text-transform: uppercase;
+}
+
+.contacto-main {
+  margin: 1rem 0;
 }
 
 /*  Container   */
