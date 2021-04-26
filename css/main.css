@@ -151,6 +151,10 @@ a:hover {
   max-width: 1300px;
 }
 
+.cita figure blockquote p {
+  font-style: italic;
+}
+
 .cita figure figcaption {
   font-size: 1rem;
   font-weight: 700;
